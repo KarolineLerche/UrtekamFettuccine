@@ -1,21 +1,9 @@
 
 
-
-
-
-
-/* BAGGRUNDSBILLEDER */
-#forside_baggrund{
-    background-image: url("Images/index_baggrund.png");
-    background-repeat: no-repeat;
-    background-position-y: 60px;}
-
-
-.dug_baggrund{
-    background-image: url("Images/footer_dug.png");
+.baggrund_dug{
+    background-image: url("Images/dug.png");
     background-repeat: no-repeat;
     background-position: bottom;}
-
 
 /* FONT STYLES */
 p{
@@ -31,9 +19,8 @@ h2{
 h3{font-family: miller-display,serif;
     font-weight: 300;
     font-style: normal;
-    line-height: 130%;
+    line-height: 130%;}
 
-}
 h1{ 
     font-family: lust, serif;
     font-style: normal;}
@@ -44,6 +31,12 @@ h1{
     font-weight: 300;}
 
 .italic_span{font-style: italic;}
+
+
+
+
+
+
 
 
 /* BUTTON CLASS */
@@ -91,7 +84,7 @@ h1{
     line-height: 170%;
     color: #817e7e;}
 
-/* "konkurrence */
+/* Pasta konkurrence link */
 .main_pasta img{padding:10% 0% 5% 12%;}
   
 .main_pasta img:hover{
@@ -172,6 +165,7 @@ h1{
 
 
 /* ---- INDEX OPSKRIFTER UNDERSIDE ---- */
+
 /* Opskrifter underside tekst */
 .opskrifter_underside_container h1{
     margin-top: 50px;
@@ -182,7 +176,7 @@ h1{
     color: #ddb350;}
 
 .opskrifter_underside_container div h2{ 
-    margin:10% 0% 10% 0%;
+    margin:6% 0% 2% 0%;
     text-align: left;
     font-size: 25px;
     color: #626262;}
@@ -254,13 +248,13 @@ tr:hover {background-color: #ffd67737;}
 
 
 /* INDEX KAMPAGNE */
+
 /* Kampagneside video og tekst */
-#kampagne{background-color: #716767;}
+#kampagne{background-color: #484141;}
 #kampagne_banner video{position: relative;}
 #kampagne_indhold h1{display: none;}
 
-#kampagne_banner{
-    margin-top: 3%;}
+#kampagne_banner{margin-top: 3%;}
 
 /* Kampagneside tekst og billede */
 #kampagne_indhold{
@@ -275,6 +269,15 @@ tr:hover {background-color: #ffd67737;}
     padding: 10% 5% 10% 1%;   
     text-align: center;}
 
+#kampagne_indhold div:last-child{padding: 1% 0% 1% 0%;}
+
+
+#kampagne_indhold a{
+    display: block;
+    margin-right: 70%;
+    margin-top: 5%;}
+
+/* Kampagneside tekst */
 #kampagne_indhold p, #kampagne_indhold h2{
     text-align: center;
     color: #ffffff;}
@@ -286,14 +289,10 @@ tr:hover {background-color: #ffd67737;}
 
 #kampagne_indhold h2{
     font-size: 140%;
+    color: #FFFDEB;
     font-family: lust, serif;}
 
-#kampagne_indhold div:last-child{padding: 1% 0% 1% 0%;}
 
-#kampagne_indhold a{
-    display: block;
-    margin-right: 70%;
-    margin-top: 5%;}
 
 
 
@@ -310,6 +309,7 @@ tr:hover {background-color: #ffd67737;}
 
 
 /* INDEX ØKOLOGI */
+
 .main_økologi{
     display: flex;
     margin-bottom: 8%;}
@@ -320,31 +320,28 @@ tr:hover {background-color: #ffd67737;}
 
 .column{flex-direction: column;}
 
-.column a{padding-left: 19%;}
+.column a{margin-left: 16%;}
 
-.column img {
-    padding-left: 17%;
-    margin-top: 16%;}
+.column img{
+    left: 0;
+    margin-top: 20%;}
 
 #økologi{
-    width: 60%;}
+    width: 60%;
+    padding: 5% 0 5% 5%;}
 
 #økologi h1{
     color:#ddb350;
-    padding-left: 8%;
-    padding-top: 9%;}
+    margin-top: 9%;}
 
 #økologi h2{
     color:#525252;
-    padding-left: 8%;
     padding-top: 2%;}
 
 #økologi p{
     color: #626262;
-    padding: 0% 8% 0% 8%;
     margin-bottom: 3%;
     font-size: 110%;
-    width: 90%;
     line-height: 21pt;}
 
 
@@ -369,39 +366,37 @@ tr:hover {background-color: #ffd67737;}
 
 
 /* INDEX KONKURRENCE */
-.main_konkurrence{
+#main_konkurrence{
     width: 100%;
     height: 600px;
     text-align: center;
     margin-top: 5%;
-    color: #626262;  
-}
+    color: #626262;}
 
-.main_konkurrence h1{font-size: 250%}
+#main_konkurrence h1{font-size: 250%}
 
-.konkurrence_box{display: flex;}
+#konkurrence_box{display: flex;}
 
-.konkurrence_box div:first-child{width: 40%;}
+#konkurrence_box div:first-child{width: 40%;}
 
-.konkurrence_box div:last-child{width: 60%;}
+#konkurrence_box div:last-child{width: 60%;}
 
 .form_div input{
     background-color:#ddb35027;
     border: 1px solid #ddb35089;
     text-align: left;
     margin-top: 40px;
-    margin-right: 10px;
-}
+    margin-right: 10px;}
 
 
 .checkbox{display: flex;}
 
 .checkbox input{position: relative;}
+
 .checkbox p{
     position: absolute;
     margin-left: 180px;
-    margin-top: 50px;
-}
+    margin-top: 50px;}
 
 
 
